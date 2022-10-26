@@ -38,8 +38,6 @@ function infoCountry(){
             return idiomasHtml += `${idioma}-`
             }
         );
-
-
         document.getElementById("content").innerHTML += `
     <tr table-active>
         <th><img src="${data[0].flags.png}" alt="" width="50px">${data[0].flag}</th>
